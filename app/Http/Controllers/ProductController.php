@@ -21,7 +21,7 @@ class ProductController extends Controller
               
     }
 
-
+   
     public function search(request $request)
     {              
       $user_input= $request->searchform;
@@ -157,9 +157,9 @@ function myOrders()
     ->get();
     //return $items_ordered;
 
-   // return view ('myorders',['orders'=> $items_ordered]);
+    return view ('myorders',['orders'=> $items_ordered]);
 
-   return response()->json(['orders' => $items_ordered->toArray()], 201);
+   /*return response()->json(['orders' => $items_ordered->toArray()], 201);*/
 
 }
 

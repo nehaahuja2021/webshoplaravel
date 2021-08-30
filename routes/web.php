@@ -6,8 +6,12 @@ use App\Http\Controllers\ProductController;
 
 
 Route::get('/', function () {
-    return view('master');
+    return view('home');
 });
+
+
+
+
 Route::get('/login', function () {
     return view('login');
 });

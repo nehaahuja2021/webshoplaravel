@@ -2,8 +2,8 @@
 @extends('master')
 @section('content')
 
-<h2 class="productspage">Fresh Products from our Farm </h2>
-
+<h2 class="commonheader">Fresh Products from our Farm </h2>
+<div class="container1">
 <div class="cards">
 
         @foreach($products as $item)
@@ -22,23 +22,28 @@
      </form>
   </div>
 </div>
+
 @endforeach
 @endsection
-
+</div>
 
   
 <style>
- .productspage
+ .commonheader
  {
    text-align:center;
    color:green;
  }
+ .container1
+ {
+   
+ }
 .cards {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
-}
+  flex-wrap: wrap;
+  justify-content: center;
+  }
 
 .card {
   width: 250px;
@@ -50,5 +55,9 @@
   margin-right: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.products
+{
+   height: 200px;
 }
   </style>

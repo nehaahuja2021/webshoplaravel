@@ -36,7 +36,7 @@ $user->name=$req->name;
 $user->email=$req->email;
 $user->password=Hash::make($req->password);
 $user->save();
-return response()->json($user);
+//return response()->json($user);
 return redirect('/login');
 
 

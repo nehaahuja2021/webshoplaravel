@@ -36,7 +36,7 @@
                   <input type="radio" value="cash" name="payment"> <span>Payment on Delivery</span> <br> <br>
 
                 </div>
-                <button type="submit" class="btn btn-default">Order Now</button>
+                <button type="submit" class="btn btn-success">Order Now</button>
               </form>
           </div>
      </div>
