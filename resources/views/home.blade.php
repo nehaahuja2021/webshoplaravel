@@ -13,12 +13,12 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-      <img src="{{url('img/veggies1.jpg')}}"alt="veggies" style="width:100%;">
+      <img src="{{url('img/veggies.jpg')}}"alt="veggies" style="width:100%;">
         
       </div>
 
       <div class="item">
-        <img src="{{url('img/mixedveggies.jpg')}}"alt="" style="width:100%;">
+        <img src="{{url('img/strawberry.jpg')}}"alt="" style="width:100%;">
       </div>
     
       <div class="item">
